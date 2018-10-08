@@ -1,0 +1,81 @@
+.smw-portfolio.smw-basic {
+  /*COLOR THEMES*/ }
+  .smw-portfolio.smw-basic table {
+    width: 100%;
+    background: #ffffff;
+    margin: 1rem 0rem;
+    box-shadow: none;
+    border-radius: 0.25rem;
+    color: rgba(0, 0, 0, 0.8);
+    border-collapse: separate;
+    border-spacing: 0px;
+    border: 1px solid #d4d4d5; }
+    .smw-portfolio.smw-basic table thead th {
+      font-size: 1rem;
+      cursor: pointer;
+      white-space: normal;
+      text-align: left;
+      padding: 0.7rem 0.8rem;
+      vertical-align: middle;
+      font-weight: bold;
+      text-transform: none;
+      border: 0; }
+      .smw-portfolio.smw-basic table thead th.ascending:after {
+        content: '\2191'; }
+      .smw-portfolio.smw-basic table thead th.descending:after {
+        content: '\2193'; }
+      .smw-portfolio.smw-basic table thead th:first-child {
+        border-radius: 0.25rem 0 0 0;
+        border-left: none; }
+    .smw-portfolio.smw-basic table tbody tr:hover {
+      background: #f2f2f2; }
+    .smw-portfolio.smw-basic table tbody tr td {
+      font-size: 1rem;
+      padding: 0.7rem 0.8rem;
+      text-align: left;
+      vertical-align: middle;
+      transition: all 0.2s ease;
+      border: 0;
+      border-top: 1px solid #d4d4d5; }
+      .smw-portfolio.smw-basic table tbody tr td:first-child {
+        border-left: none; }
+      .smw-portfolio.smw-basic table tbody tr td.smw-cell-with-indicator {
+        white-space: nowrap; }
+      .smw-portfolio.smw-basic table tbody tr td.smw-portfolio-total-virtual-symbol {
+        white-space: nowrap; }
+    .smw-portfolio.smw-basic table tfoot td {
+      font-size: 1rem;
+      white-space: normal;
+      text-align: left;
+      padding: 0.7rem 0.8rem;
+      vertical-align: middle;
+      font-weight: bold;
+      text-transform: none;
+      border: 0;
+      border-top: 1px solid #d4d4d5; }
+  @media screen and (max-width: 480px) {
+    .smw-portfolio.smw-basic table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px; }
+    .smw-portfolio.smw-basic table tbody tr, .smw-portfolio.smw-basic table tfoot tr {
+      display: block; }
+      .smw-portfolio.smw-basic table tbody tr td, .smw-portfolio.smw-basic table tfoot tr td {
+        border: 0;
+        display: block;
+        text-align: right; }
+        .smw-portfolio.smw-basic table tbody tr td:before, .smw-portfolio.smw-basic table tfoot tr td:before {
+          content: attr(data-title);
+          float: left;
+          font-weight: bold; }
+        .smw-portfolio.smw-basic table tbody tr td:last-child, .smw-portfolio.smw-basic table tfoot tr td:last-child {
+          border-bottom: 1px solid #d4d4d5; }
+    .smw-portfolio.smw-basic table tfoot tr td {
+      display: none; }
+      .smw-portfolio.smw-basic table tfoot tr td.smw-portfolio-total-virtual-symbol, .smw-portfolio.smw-basic table tfoot tr td.smw-portfolio-total-quote-regularMarketChange, .smw-portfolio.smw-basic table tfoot tr td.smw-portfolio-total-quote-regularMarketChangePercent {
+        display: block; } }

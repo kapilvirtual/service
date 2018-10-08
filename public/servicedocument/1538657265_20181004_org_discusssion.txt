@@ -1,0 +1,60 @@
+1:- About the service and the payment , what kind of service is they are specific or any kind of services.
+
+2:-Service/process step Functionality (FORM )
+
+	Info Sent: Data fields [Required Y/N?] 
+		o Sending party 
+	 Transport medium 
+		o Transport protocol 
+	 Encryption type 
+	 Potential vulnerabilities & threats 
+	 Input ‘Phase specific’ controls for People, Processes & Technology 
+	 Upload ‘phase specific’ documents 
+	 Comments
+
+ 
+3:- Global Functionality 
+
+	 Text box comment field 1 
+	o Regulations/Legal statues (i.e. GLBA, GDPR) 
+	o Governing Standard (i.e. PCI) 
+	
+	 Drop down menu – 
+		Internal data classification 
+			o Public o Confidential o Restricted o Highly Restricted 
+	
+	 Input ‘Global controls’ for People, Processes & Technology 
+
+	
+	 Customer icons – Each icon represents a phase or step in the service
+	
+	EMAIL FUNCTIONLITY :- 
+	
+	 Platform should give service provider the ability to notify customers via email of any updates to flow diagram or new document uploads.
+	
+	 Reporting functionality o Summary of overall service description o Regulations and governing standards o Data fields per each step in the service.
+
+	
+4:- The subscriber will be able indicate the regulations or governing standard
+
+
+5: Example Service Information Flow: Online Order (To under the online order)
+
+
+
+In the admin section :- 
+
+Master administraotor
+1. Run report for number of users and number of services per user for entire platform .
+
+
+Service owner
+Notify end customer of service change or document upload via emai
+
+
+
+
+
+
+
+ 
