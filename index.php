@@ -1,5 +1,5 @@
 <?php
-
+echo "asdadsa";die;
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
